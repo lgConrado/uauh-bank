@@ -4,7 +4,6 @@ import PoliticaBank from "../pages/Bank/Politica";
 import TermoUso from "../pages/Bank/TermoUso";
 import QuemSomosBank from "../pages/Bank/QuemSomos";
 import EticaECompliance from "../pages/Bank/EticaCompliance";
-import CookieBanner from "../components/Cookie";
 
 const Rotas = () => {
   return (
