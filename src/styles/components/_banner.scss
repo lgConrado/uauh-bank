@@ -451,7 +451,7 @@
       &__content {
         align-items: center;
         display: flex;
-        gap: 6rem;
+        gap: 18rem;
         justify-content: center;
         // margin-top: 8rem;
         padding: 0 4rem;
@@ -496,10 +496,10 @@
         }
 
         &__ilustracao {
-          height: 44rem;
+          height: 48rem;
           object-fit: cover;
-          width: 44rem;
-          position: x;
+          width: 48rem;
+          margin-right: -16rem;
 
           @include respond(laptop) {
             height: 18rem;

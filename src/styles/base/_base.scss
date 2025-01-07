@@ -37,6 +37,6 @@ html ::-webkit-scrollbar-track {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: auto;
-  // scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
   text-rendering: optimizeLegibility;
 }
