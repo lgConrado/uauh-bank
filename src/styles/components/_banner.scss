@@ -642,7 +642,11 @@
 
         &__card {
           align-items: center;
-          background-color: $color-b-primary;
+          background-image: linear-gradient(
+        to left top,
+        $color-b-primary,
+        $color-b-hard-dark
+      );
           border-radius: 1rem;
           display: flex;
           gap: 8rem;
@@ -671,13 +675,8 @@
           // }
 
           &__ilustracao {
-            border-radius: 50%;
-            height: 16rem;
-            object-fit: cover;
-            outline: 0.125rem solid $color-white;
-            outline-offset: 1.5rem;
-            transition: all 0.3s ease-in-out;
-            width: 16rem;
+            height: 32rem;
+            width: 32rem;
 
             @include respond(laptop) {
               height: 12rem;
@@ -688,21 +687,13 @@
               display: none;
             }
 
-            &:hover {
-              box-shadow: 0 1rem 1rem rgba($color-white, 0.32);
-              outline-offset: 0.5rem;
-              transform: scale(1.1);
-            }
           }
 
           &__conteudo {
-            // background-color: $color-b-hard-dark;
-            border-radius: 50%;
             color: $color-white;
             font-size: 1.5rem;
             max-width: 36rem;
             padding: 4rem;
-            transition: all 0.3s ease-in-out;
 
             @include respond(laptop) {
               font-size: 1.25rem;
@@ -712,16 +703,8 @@
             @include respond(phone) {
               font-size: 1rem;
             }
-
-            // &:hover {
-            //   transform: scale(1.1);
-            // }
           }
         }
-
-        // &__card:hover &__card__conteudo {
-        //   background-color: $color-b-primary;
-        // }
 
         &__card:nth-child(odd) {
           flex-direction: row-reverse;

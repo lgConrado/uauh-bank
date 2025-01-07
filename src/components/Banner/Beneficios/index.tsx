@@ -1,8 +1,8 @@
 import beneficios from "./beneficios.json";
-import bancoParceiro from "../../../assets/ilustracao-banco-parceiro.jpg";
+import bancoParceiro from "../../../assets/ilustracao-banco-parceiro.png";
 import semBurocracia from "../../../assets/ilustracao-sem-burocracia.png";
-import equipeComprometida from "../../../assets/ilustracao-equipe-comprometida.jpg";
-import solucoesComprometidas from "../../../assets/ilustracao-solucoes-financeiras.jpg";
+import equipeComprometida from "../../../assets/ilustracao-equipe-comprometida.png";
+import solucoesComprometidas from "../../../assets/ilustracao-solucoes-financeiras.png";
 
 interface IBeneficio {
   id: string;
