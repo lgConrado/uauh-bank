@@ -496,9 +496,9 @@
         }
 
         &__ilustracao {
-          height: 48rem;
+          height: 52rem;
           object-fit: cover;
-          width: 48rem;
+          width: 52rem;
           margin-right: -16rem;
 
           @include respond(laptop) {
