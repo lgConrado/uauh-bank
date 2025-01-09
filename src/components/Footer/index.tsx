@@ -51,10 +51,10 @@ const FooterBank = () => {
               <a href="https://uauh.com.br/" className="link">
                 <li>Cartões benefícios</li>
               </a>
-              <a href="#banner--conta-digital" className="link">
+              <a href="/#banner--conta-digital" className="link">
                 <li>Conta digital</li>
               </a>
-              <a href="#banner--emprestimo-consignado" className="link">
+              <a href="/#banner--emprestimo-consignado" className="link">
                 <li>Empréstimo consignado</li>
               </a>
             </ul>
@@ -62,13 +62,13 @@ const FooterBank = () => {
           <div className="footer__content__list">
             <h4 className="heading--b--quaternary">Navegação</h4>
             <ul>
-              <a href="#banner--beneficios" className="link">
+              <a href="/#banner--beneficios" className="link">
                 <li>Benefícios</li>
               </a>
-              <a href="#banner--conta-digital" className="link">
+              <a href="/#banner--conta-digital" className="link">
                 <li>Conta digital</li>
               </a>
-              <a href="#banner--emprestimo-consignado" className="link">
+              <a href="/#banner--emprestimo-consignado" className="link">
                 <li>Empréstimo consignado</li>
               </a>
             </ul>
